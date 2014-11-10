@@ -1,0 +1,59 @@
+{
+    "actions": {
+        "welcome": {
+            "authenticated": {
+                "contenturl": "https://people.redhat.com/tqvarnst/codenvy/codenvy-wildfly-howto.html",
+                "title": "Welcome"
+            },
+            "nonauthenticated": {
+                "contenturl": "https://people.redhat.com/tqvarnst/codenvy/codenvy-wildfly-howto.html",
+                "title": "Welcome Guest"
+            }
+        }
+    },
+    "creator": {
+        "accountId": "XXXXXXXXXXXXXXXXX",
+		"name": "Thomas Qvarnstrom, Red Hat",
+		"email": "tqvarnst@redhat.com"
+    },
+    "project": {
+        "attributes": {
+            "language": [
+                "java"
+            ]
+        },
+        "builders": {
+            "default": "maven"
+        },
+        "name": "codenvy-ticket-monster",
+        "runners": {
+            "configs": {
+                "project:/docker/wildfly8": {
+                    "options": {},
+                    "ram": 512,
+                    "variables": {}
+                }
+            },
+            "default": "project:/docker/wildfly8"
+        },
+        "type": "maven",
+        "visibility": "public"
+    },
+    "source": {
+        "project": {
+            "location": "https://github.com/jboss-developer/ticket-monster.git",
+            "parameters": {
+                "branch": "WFLY8.1",
+                "keepDirectory": "demo"
+            },
+            "type": "git"
+        },
+        "runners": {
+            "/docker/wildfly8": {
+                "location": "https://raw.githubusercontent.com/jbossdemocentral/codenvy-cloud-ide/master/runners/wildfly/Dockerfile"
+            }
+        }
+    },
+    "v": "2.0",
+    "variables": []
+}

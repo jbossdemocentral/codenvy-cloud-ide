@@ -1,0 +1,59 @@
+{
+    "actions": {
+        "welcome": {
+            "authenticated": {
+                "contenturl": "https://people.redhat.com/tqvarnst/codenvy/codenvy-wildfly-howto.html",
+                "title": "Welcome"
+            },
+            "nonauthenticated": {
+                "contenturl": "https://people.redhat.com/tqvarnst/codenvy/codenvy-wildfly-howto.html",
+                "title": "Welcome Guest"
+            }
+        }
+    },
+    "creator": {
+        "accountId": "XXXXXXXXXXXXXXXX",
+		"name": "Thomas Qvarnstrom, Red Hat",
+		"email": "tqvarnst@redhat.com"
+    },
+    "project": {
+        "attributes": {
+            "language": [
+                "java"
+            ]
+        },
+        "builders": {
+            "default": "maven"
+        },
+        "name": "wildfly-helloworld",
+        "runners": {
+            "configs": {
+                "project:/docker/wildfly8": {
+                    "options": {},
+                    "ram": 512,
+                    "variables": {}
+                }
+            },
+            "default": "project:/docker/wildfly8"
+        },
+        "type": "maven",
+        "visibility": "public"
+    },
+    "source": {
+        "project": {
+            "location": "https://github.com/wildfly/quickstart.git",
+            "parameters": {
+                "branch": "master",
+                "keepDirectory": "helloworld"
+            },
+            "type": "git"
+        },
+        "runners": {
+            "/docker/wildfly8": {
+                "location": "https://raw.githubusercontent.com/jbossdemocentral/codenvy-cloud-ide/master/runners/wildfly/Dockerfile"
+            }
+        }
+    },
+    "v": "2.0",
+    "variables": []
+}
