@@ -48,7 +48,7 @@ TicketMonster project with WildFly runner
 Source: <https://github.com/jboss-developer/ticket-monster>
 To run the ticket monster application on WildFly in the Codenvy platform follow the instructions below
 
-1. Click this buttom [![alt](https://codenvy.com/factory/resources/factory-dark.png)](https://codenvy.com/f?id=cxdvi3ruk4eikwyg) in a browser
+1. Click this button [![alt](https://codenvy.com/factory/resources/factory-dark.png)](https://codenvy.com/f?id=cxdvi3ruk4eikwyg) in a browser
 
 	This will create a temporary cloud IDE environment. To persist it you will have to register and click on persist.
 	
@@ -58,7 +58,7 @@ To run the ticket monster application on WildFly in the Codenvy platform follow 
 Source: https://github.com/wildfly/quickstart/tree/master/helloworld
 To run the Helloworld Quickstart project with in the Codenvy platform follow the instructions below:
 
-1. Click this buttom [![alt](https://codenvy.com/factory/resources/factory-dark.png)](https://codenvy.com/f?id=k60dis66yra5rk5q) in a browser
+1. Click this button [![alt](https://codenvy.com/factory/resources/factory-dark.png)](https://codenvy.com/f?id=k60dis66yra5rk5q) in a browser
 
 	This will create a temporary cloud IDE environment. To persist it you will have to register and click on persist.
 	
