@@ -1,12 +1,12 @@
 codenvy-cloud-ide
 =================
 Author: Thomas Qvarnström, tqvarnst@redhat.com  
-Level: Beginner
+Level: Beginner  
 Technologies: Cloud IDE, Java EE   
 Summary: In collaboration with Codenvy we have created demos for running JBoss development using their cloud based IDE developement environment. Codenvy provided us with additional memory for our demos so that we can run JBoss software. Codenvy also provides developers with runners so that developers can deploy their code. We have provided a couple of demos using the Clodenvy platform with Red Hat software.   
-Prerequisites: None
-Target Product: WildFly
-Product Versions: WildFly 8.1
+Prerequisites: None  
+Target Product: WildFly  
+Product Versions: WildFly 8.1  
 
 What is it?
 -----------
